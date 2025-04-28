@@ -23,7 +23,15 @@ public:
         cout << "harga mobil = " << harga_mobil << endl;
     }
 
-
-
 };
+
+int main()
+{
+    Mobil nurul;
+    nurul.input_data();
+    cout << "nama mobil = " << nurul.nama_mobil << endl;
+    cout << "tipe mobil = " << nurul.tipe_mobil << endl;
+    nurul.output_data();
+}
+
 
