@@ -22,9 +22,12 @@ public:
     void output_data(){
         cout << "tampilkan luas = " << luas << endl;
     }
-
-
-
-
-
 };
+
+int main(){
+    persegi_panjang kiri;
+    kiri.input_data();
+    kiri.hitung_luas();
+    kiri.output_data();
+}
+
