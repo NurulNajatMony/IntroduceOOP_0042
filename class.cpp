@@ -7,5 +7,8 @@ class Mobil
     string nama_mobil;
     string tipe_mobil;
 
+private:
+    int harga_mobil;
+
 };
 
